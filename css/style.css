@@ -16,9 +16,7 @@
   background-size: cover;
 }
 
-
-
-button{
+button {
   border-radius: 20px;
   padding: 10px 15px;
   border-radius: 20px;
@@ -34,19 +32,12 @@ button{
   height: 40px;
 }
 
-.header-setup {
-  background-color: #255ee9
-  border: 1px dashed black;
-}
-
-.header-login{
+.header-login {
   background-color: white;
   color: black;
- 
 }
 
-.header-content{
-
+.header-content {
 }
 
 .left {
@@ -59,9 +50,11 @@ button{
   height: 40px;
   text-align: center;
   color: white;
+  display: flex;
+  justify-content: space-around;
 }
 
-h1{
+h1 {
   font-size: 60px;
   padding-bottom: 50px;
 }
@@ -72,7 +65,7 @@ h1{
   text-align: right;
 }
 
-.header-button{
+.header-button {
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -80,7 +73,6 @@ h1{
 }
 
 /* # MAIN SECTION */
-
 
 .section-1 {
   min-height: 500px;
@@ -122,7 +114,7 @@ h1{
   align-items: center;
 }
 
-.end-section-5{
+.end-section-5 {
   background-image: url(../img/stars.svg);
   height: 30px;
   background-size: cover;
@@ -130,21 +122,21 @@ h1{
   text-align: center;
 }
 
-.title-section{
+.title-section {
   font-size: 35px;
 }
 
-.title-end{
+.title-end {
 }
 
-.p-section{
+.p-section {
   padding: 20px;
   text-align: left;
   font-size: 18px;
 }
 
-.p-end{
-width: 700px;
+.p-end {
+  width: 700px;
 }
 
 /* # CARD */
@@ -166,7 +158,6 @@ width: 700px;
 .blue-column {
   width: 600px;
   height: 400px;
- 
 }
 
 .rose-column {
@@ -196,7 +187,7 @@ width: 700px;
   height: 400px;
 }
 
-.flag{
+.flag {
   height: 25px;
 }
 
@@ -204,14 +195,14 @@ hr {
   margin: 20px;
 }
 
-.title-item{
-  color:#5865f2;
+.title-item {
+  color: #5865f2;
   font-size: 40px;
   margin-bottom: 20px;
 }
 
-.item{
-  color:#5865f2;
+.item {
+  color: #5865f2;
 }
 
 .end {
@@ -229,7 +220,7 @@ hr {
 .flex-card {
   display: flex;
   flex-direction: row-reverse;
-  border-bottom: 2px solid #5865f2;;
+  border-bottom: 2px solid #5865f2;
 }
 
 .end-page {
@@ -241,6 +232,6 @@ hr {
   padding: 5px;
 }
 
-.register-button{
-  background-color:#5865f2
+.register-button {
+  background-color: #5865f2;
 }
