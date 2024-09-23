@@ -9,11 +9,18 @@
 /* # UTILS */
 
 .header-page {
-  height: 60px;
+  height: 600px;
   background-color: rgb(19, 205, 230);
   padding: 10px;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
 }
 
+button{
+  border-radius: 20px;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
 /* # HEADER */
 
 .header-item {
@@ -26,8 +33,18 @@
 }
 
 .header-setup {
-  background-color: rgb(199, 148, 39);
+  background-color: #255ee9
   border: 1px dashed black;
+}
+
+.header-login{
+  background-color: white;
+  color: black;
+ 
+}
+
+.header-content{
+
 }
 
 .left {
@@ -39,6 +56,12 @@
   width: 800px;
   height: 40px;
   text-align: center;
+  color: white;
+}
+
+h1{
+  font-size: 60px;
+  padding-bottom: 50px;
 }
 
 .right {
@@ -47,11 +70,17 @@
   text-align: right;
 }
 
+.header-button{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px;
+}
+
 /* # MAIN SECTION */
 
 .section-1 {
-  height: 500px;
-  background-color: blue;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,8 +124,7 @@
 .first {
   height: 400px;
   width: 800px;
-  background-color: pink;
-  border: 1px dashed black;
+  color: white;
 }
 
 .last {
@@ -106,6 +134,10 @@
 }
 
 .card-center {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* # COLUMS */
