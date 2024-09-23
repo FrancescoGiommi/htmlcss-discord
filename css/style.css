@@ -79,6 +79,17 @@ h1{
 
 /* # MAIN SECTION */
 
+
+.title-section{
+  font-size: 35px;
+}
+
+.p-section{
+  padding: 20px;
+  text-align: left;
+  font-size: 18px;
+}
+
 .section-1 {
   min-height: 500px;
   display: flex;
@@ -116,7 +127,11 @@ h1{
   background-color: rgb(137, 142, 143);
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+}
+
+.end-section-5{
+  background-image: url(../img/stars.svg);
 }
 
 /* # CARD */
@@ -130,7 +145,6 @@ h1{
 .last {
   height: 600px;
   width: 1000px;
-  background-color: green;
 }
 
 .card-center {
@@ -138,6 +152,8 @@ h1{
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-image: url(../img/item4-big.svg);
+  background-size: cover;
 }
 
 /* # COLUMS */
@@ -145,13 +161,12 @@ h1{
 .blue-column {
   width: 600px;
   height: 400px;
-  background-color: cadetblue;
+ 
 }
 
 .rose-column {
   width: 400px;
   height: 400px;
-  background-color: rgb(187, 74, 143);
 }
 
 /* # FOOTER */
@@ -165,14 +180,14 @@ h1{
 }
 
 .first-card {
-  width: 175px;
+  width: 70%;
   height: 400px;
   background-color: cadetblue;
   border: 1px dashed white;
 }
 
 .second-card {
-  width: 300px;
+  width: 30%;
   height: 400px;
   background-color: rgb(187, 74, 143);
   border: 1px dashed black;
@@ -182,6 +197,10 @@ hr {
   margin: 20px;
 }
 
+.card{
+  width: 17.5%;
+  border: 1px dashed black;
+}
 .end {
 }
 
