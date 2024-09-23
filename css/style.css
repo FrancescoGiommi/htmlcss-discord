@@ -204,8 +204,14 @@ hr {
   margin: 20px;
 }
 
+.title-item{
+  color:#5865f2;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
 .item{
-  color:#5323f5 ;
+  color:#5865f2;
 }
 
 .end {
@@ -214,15 +220,16 @@ hr {
 .end-container {
   width: 1000px;
   height: 50px;
-  background-color: aquamarine;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 20px;
 }
 
 .flex-card {
   display: flex;
   flex-direction: row-reverse;
+  border-bottom: 2px solid #5865f2;;
 }
 
 .end-page {
@@ -231,7 +238,9 @@ hr {
 }
 
 .end-item {
-  background-color: rgb(247, 163, 226);
   padding: 5px;
-  border: 1px dashed black;
+}
+
+.register-button{
+  background-color:#5865f2
 }
